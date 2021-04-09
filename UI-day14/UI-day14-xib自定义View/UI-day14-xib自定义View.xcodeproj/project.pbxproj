@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5919071A1ABA684100D3C4F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 591907191ABA684100D3C4F3 /* main.m */; };
+		5919071D1ABA684100D3C4F3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5919071C1ABA684100D3C4F3 /* AppDelegate.m */; };
+		5919071F1ABA684100D3C4F3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5919071E1ABA684100D3C4F3 /* Images.xcassets */; };
+		591907221ABA684100D3C4F3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 591907201ABA684100D3C4F3 /* LaunchScreen.xib */; };
+		5919072E1ABA684100D3C4F3 /* UI_day14_xib___ViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5919072D1ABA684100D3C4F3 /* UI_day14_xib___ViewTests.m */; };
+		591907391ABA688C00D3C4F3 /* CustomSubView.m in Sources */ = {isa = PBXBuildFile; fileRef = 591907381ABA688C00D3C4F3 /* CustomSubView.m */; };
+		5919073B1ABA68D300D3C4F3 /* CustomSubView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5919073A1ABA68D300D3C4F3 /* CustomSubView.xib */; };
+		5919073E1ABA750000D3C4F3 /* MyLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5919073D1ABA750000D3C4F3 /* MyLabel.m */; };
+		591907401ABA752000D3C4F3 /* MyLabel.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5919073F1ABA752000D3C4F3 /* MyLabel.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		591907281ABA684100D3C4F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5919070C1ABA684000D3C4F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 591907131ABA684100D3C4F3;
+			remoteInfo = "UI-day14-xib自定义View";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		591907141ABA684100D3C4F3 /* UI-day14-xib自定义View.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UI-day14-xib自定义View.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		591907181ABA684100D3C4F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		591907191ABA684100D3C4F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5919071B1ABA684100D3C4F3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5919071C1ABA684100D3C4F3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5919071E1ABA684100D3C4F3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		591907211ABA684100D3C4F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		591907271ABA684100D3C4F3 /* UI-day14-xib自定义ViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UI-day14-xib自定义ViewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5919072C1ABA684100D3C4F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5919072D1ABA684100D3C4F3 /* UI_day14_xib___ViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UI_day14_xib___ViewTests.m"; sourceTree = "<group>"; };
+		591907371ABA688C00D3C4F3 /* CustomSubView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomSubView.h; sourceTree = "<group>"; };
+		591907381ABA688C00D3C4F3 /* CustomSubView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomSubView.m; sourceTree = "<group>"; };
+		5919073A1ABA68D300D3C4F3 /* CustomSubView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomSubView.xib; sourceTree = "<group>"; };
+		5919073C1ABA750000D3C4F3 /* MyLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLabel.h; sourceTree = "<group>"; };
+		5919073D1ABA750000D3C4F3 /* MyLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyLabel.m; sourceTree = "<group>"; };
+		5919073F1ABA752000D3C4F3 /* MyLabel.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyLabel.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		591907111ABA684100D3C4F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		591907241ABA684100D3C4F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5919070B1ABA684000D3C4F3 = {
+			isa = PBXGroup;
+			children = (
+				591907161ABA684100D3C4F3 /* UI-day14-xib自定义View */,
+				5919072A1ABA684100D3C4F3 /* UI-day14-xib自定义ViewTests */,
+				591907151ABA684100D3C4F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		591907151ABA684100D3C4F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				591907141ABA684100D3C4F3 /* UI-day14-xib自定义View.app */,
+				591907271ABA684100D3C4F3 /* UI-day14-xib自定义ViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		591907161ABA684100D3C4F3 /* UI-day14-xib自定义View */ = {
+			isa = PBXGroup;
+			children = (
+				5919071B1ABA684100D3C4F3 /* AppDelegate.h */,
+				5919071C1ABA684100D3C4F3 /* AppDelegate.m */,
+				591907371ABA688C00D3C4F3 /* CustomSubView.h */,
+				591907381ABA688C00D3C4F3 /* CustomSubView.m */,
+				5919073A1ABA68D300D3C4F3 /* CustomSubView.xib */,
+				5919073C1ABA750000D3C4F3 /* MyLabel.h */,
+				5919073D1ABA750000D3C4F3 /* MyLabel.m */,
+				5919073F1ABA752000D3C4F3 /* MyLabel.xib */,
+				5919071E1ABA684100D3C4F3 /* Images.xcassets */,
+				591907201ABA684100D3C4F3 /* LaunchScreen.xib */,
+				591907171ABA684100D3C4F3 /* Supporting Files */,
+			);
+			path = "UI-day14-xib自定义View";
+			sourceTree = "<group>";
+		};
+		591907171ABA684100D3C4F3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				591907181ABA684100D3C4F3 /* Info.plist */,
+				591907191ABA684100D3C4F3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5919072A1ABA684100D3C4F3 /* UI-day14-xib自定义ViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				5919072D1ABA684100D3C4F3 /* UI_day14_xib___ViewTests.m */,
+				5919072B1ABA684100D3C4F3 /* Supporting Files */,
+			);
+			path = "UI-day14-xib自定义ViewTests";
+			sourceTree = "<group>";
+		};
+		5919072B1ABA684100D3C4F3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5919072C1ABA684100D3C4F3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		591907131ABA684100D3C4F3 /* UI-day14-xib自定义View */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 591907311ABA684100D3C4F3 /* Build configuration list for PBXNativeTarget "UI-day14-xib自定义View" */;
+			buildPhases = (
+				591907101ABA684100D3C4F3 /* Sources */,
+				591907111ABA684100D3C4F3 /* Frameworks */,
+				591907121ABA684100D3C4F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UI-day14-xib自定义View";
+			productName = "UI-day14-xib自定义View";
+			productReference = 591907141ABA684100D3C4F3 /* UI-day14-xib自定义View.app */;
+			productType = "com.apple.product-type.application";
+		};
+		591907261ABA684100D3C4F3 /* UI-day14-xib自定义ViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 591907341ABA684100D3C4F3 /* Build configuration list for PBXNativeTarget "UI-day14-xib自定义ViewTests" */;
+			buildPhases = (
+				591907231ABA684100D3C4F3 /* Sources */,
+				591907241ABA684100D3C4F3 /* Frameworks */,
+				591907251ABA684100D3C4F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				591907291ABA684100D3C4F3 /* PBXTargetDependency */,
+			);
+			name = "UI-day14-xib自定义ViewTests";
+			productName = "UI-day14-xib自定义ViewTests";
+			productReference = 591907271ABA684100D3C4F3 /* UI-day14-xib自定义ViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5919070C1ABA684000D3C4F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = liufy;
+				TargetAttributes = {
+					591907131ABA684100D3C4F3 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					591907261ABA684100D3C4F3 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 591907131ABA684100D3C4F3;
+					};
+				};
+			};
+			buildConfigurationList = 5919070F1ABA684000D3C4F3 /* Build configuration list for PBXProject "UI-day14-xib自定义View" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5919070B1ABA684000D3C4F3;
+			productRefGroup = 591907151ABA684100D3C4F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				591907131ABA684100D3C4F3 /* UI-day14-xib自定义View */,
+				591907261ABA684100D3C4F3 /* UI-day14-xib自定义ViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		591907121ABA684100D3C4F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				591907221ABA684100D3C4F3 /* LaunchScreen.xib in Resources */,
+				5919073B1ABA68D300D3C4F3 /* CustomSubView.xib in Resources */,
+				591907401ABA752000D3C4F3 /* MyLabel.xib in Resources */,
+				5919071F1ABA684100D3C4F3 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		591907251ABA684100D3C4F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		591907101ABA684100D3C4F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5919071D1ABA684100D3C4F3 /* AppDelegate.m in Sources */,
+				5919071A1ABA684100D3C4F3 /* main.m in Sources */,
+				5919073E1ABA750000D3C4F3 /* MyLabel.m in Sources */,
+				591907391ABA688C00D3C4F3 /* CustomSubView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		591907231ABA684100D3C4F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5919072E1ABA684100D3C4F3 /* UI_day14_xib___ViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		591907291ABA684100D3C4F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 591907131ABA684100D3C4F3 /* UI-day14-xib自定义View */;
+			targetProxy = 591907281ABA684100D3C4F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		591907201ABA684100D3C4F3 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				591907211ABA684100D3C4F3 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5919072F1ABA684100D3C4F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		591907301ABA684100D3C4F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		591907321ABA684100D3C4F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UI-day14-xib自定义View/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		591907331ABA684100D3C4F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UI-day14-xib自定义View/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		591907351ABA684100D3C4F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "UI-day14-xib自定义ViewTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UI-day14-xib自定义View.app/UI-day14-xib自定义View";
+			};
+			name = Debug;
+		};
+		591907361ABA684100D3C4F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "UI-day14-xib自定义ViewTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UI-day14-xib自定义View.app/UI-day14-xib自定义View";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5919070F1ABA684000D3C4F3 /* Build configuration list for PBXProject "UI-day14-xib自定义View" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5919072F1ABA684100D3C4F3 /* Debug */,
+				591907301ABA684100D3C4F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		591907311ABA684100D3C4F3 /* Build configuration list for PBXNativeTarget "UI-day14-xib自定义View" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				591907321ABA684100D3C4F3 /* Debug */,
+				591907331ABA684100D3C4F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		591907341ABA684100D3C4F3 /* Build configuration list for PBXNativeTarget "UI-day14-xib自定义ViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				591907351ABA684100D3C4F3 /* Debug */,
+				591907361ABA684100D3C4F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5919070C1ABA684000D3C4F3 /* Project object */;
+}
